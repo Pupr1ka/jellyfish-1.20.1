@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "jellyfish:mesoglea"
+    },
+    "S": {
+      "item": "jellyfish:washed_mesoglea"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MSM",
+    "MSM"
+  ],
+  "result": {
+    "item": "jellyfish:jelly_blouse"
+  },
+  "show_notification": true
+}

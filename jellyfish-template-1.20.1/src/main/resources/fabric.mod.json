@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "jellyfish",
+	"version": "${version}",
+	"name": "jellyfish",
+	"description": "Jellyfish and some other stuff!!!",
+	"authors": [
+		"Puprika"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/jellyfish/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.puprika.Jellyfish"
+		],
+		"client": [
+			"net.puprika.JellyfishClient"
+		],
+		"fabric-datagen": [
+			"net.puprika.JellyfishDataGenerator"
+		]
+	},
+	"mixins": [
+		"jellyfish.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
